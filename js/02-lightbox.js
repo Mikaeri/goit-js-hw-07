@@ -1,5 +1,7 @@
 import { galleryItems } from './gallery-items.js';
 
+
+
 const gallery = document.querySelector(".js-container");
 const markup = galleryItems.map(({preview, original, description}) => 
 `<li class="gallery__item">
